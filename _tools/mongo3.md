@@ -1,27 +1,26 @@
 ---
 # Tool name
-name: mongo3
+name: MongoGen
 
 # Software language (if applicable, see _data/attr.yml)
-language: Ruby
+language: Shell
 
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
 # Maintained: "Actively Maintained", "Inactive", "Unknown"
-maintained: Inactive since 2013
+maintained: Active since 2013
 
 # url of support forum
-support: https://github.com/derailed/mongo3/issues
+support: https://github.com/MongoGen/MongoDB-3Node-Replica-3.4.14
 
 # homepage url
-officialUrl: https://github.com/derailed/mongo3
+officialUrl: http://mongogen.com
 
 # supported operating systems (if applicable)
 environments:
-- apple
 - linux
-- windows
+
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
@@ -29,29 +28,29 @@ mongodb_versions:
 #- 2.4
 #- 2.6
 #- 3.0
+- 3.4
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version:
+minimum_mongodb_version: 3.4.14
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: GUI
+purpose: Installation 3 node Replica cluster
 
 # Short description of tool
-description: A Sinatra-based admin console providing an overview of your cluster and drilldown to see information about your databases.
-
+description: MongoGen is a CLI tool to install MongoDB Replica Cluster.  MongoGen is a tool developed by the s3meteta engineers that suggests corrections to your indexes based on logged queries.
 # image should be added to the img/ directory, ideally 370x200px
-img: mongo3.png
+img: 
 
 # Release Info
-latest_release_version: 0.1.5
-latest_release_date: 2012-04-19
+latest_release_version: 3.4
+latest_release_date: 2018-04-12
 
 # Github Info
-github_user: derailed
-github_repo: mongo3
+github_user: MongoGen
+github_repo: MongoDB-3Node-Replica-3.4.14
 
 # Do not change the following settings
 layout: tool
